@@ -1,0 +1,115 @@
+¿Que es la lógica proposicional?
+es una expresión sobre un tema en la que su requisito es que podamos definirla como verdadera o falsa.
+
+
+Ejercicios:
+1.Realizar un algortimo en Pseudocódigo que permita sumar dos números.
+variables: int n1, n2, suma
+inicio
+   escribir "Introduzca primer número: " 
+   leer n1 
+   escribir "Introduzca segundo número: " 
+   leer n2 
+   suma = n1+n2
+   Escribir "El resultado de la suma es: ", suma
+fin
+---------------------------------------------------------------------------------------------------------
+2.Realizar un algoritmo en Pseudocódigo que permita calcular el promedio de 3 notas.
+variables: int n1, n2,n3, suma, float promedio
+inicio
+   escribir "Introduzca primer número: " 
+   leer n1 
+   escribir "Introduzca segundo número: " 
+   leer n2 
+   escribir "Introduzca tercer número: " 
+   leer n3 
+   suma = n1+n2+n3
+   promedio= suma/3
+   Escribir "El resultado del promedio de las tres notas es: ", promedio
+fin
+---------------------------------------------------------------------------------------------------------
+3.Realizar un algoritmo en Pseudocódigo que permita calcular el cuadrado de un número.
+En cada ejercicio determinar las variables y/o constantes involucradas.
+variables: int n1, cuadrado
+inicio
+   escribir "Introduzca número: " 
+   leer n1
+   cuadrado = n1*n1
+   Escribir "El resultado del cuadrado del número ingrasado es: ", cuadrado
+fin
+
+---------------------------------------------------------------------------------------------------------
+
+4.Realizar un algoritmo en Pseudocódigo para resolver el siguiente problema:
+Suponga que un individuo desea invertir un capital en un banco y desea saber cuanto dinero ganará después 
+de un mes si el banco le paga a razón de 2% mensual.
+En cada ejercicio determinar las variables y/o constantes involucradas.
+
+variables: int n1, const ganancia
+inicio
+   escribir "Introduzca monto: " 
+   leer n1
+   ganancia = monto*0.2
+   Escribir "El resultado de la ganancia mensual según monto ingresado es: ", ganancia
+fin
+
+5.Realizar un algoritmo en Pseudocódigo que pida ingresar el modelo y la marca de un vehículo y me 
+muestre por pantalla los datos ingresados.
+
+variables: string modelo,marca
+inicio
+   escribir "Introduzca modelo vehículo: " 
+   leer modelo
+   escribir "Introduzca marca vehículo: " 
+   leer marca
+   Escribir "El modelo del vehículo es: ", modelo + "y la marca es: ", marca
+fin
+
+6.Realizar un algoritmo en Pseudocódigo que permita calcular el porcentaje solicitado de un número ingresado.
+
+variables: int n1, porcentaje,  double calculoPorcentaje
+inicio
+   escribir "Introduzca número: " 
+   leer n1
+   escribir "Introduzca porcentaje a calcular: " 
+   leer porcentaje
+   calculoPorcentaje= (n1*porcentaje)/100
+   Escribir "El resultado del "+ porcentaje +" de " + n1 +" es: "+ calculoPorcentaje
+fin
+
+7.Realizar un algoritmo en Pseudocódigo para resolver el siguiente problema:
+Un vendedor recibe un sueldo base más un 10% de comisión de sus ventas,el vendedor desea saber cuanto 
+dinero obtendrá por concepto de comisiones por tres ventas que realiza en el mes y el total que recibirá 
+en el mes tomando en cuenta su sueldo base y comisiones.
+
+variables: int v1,v2,v3,sueldo - float calculoPorcentaje -  float calculoTotal
+inicio
+   escribir "Introduzca sueldo: " 
+   leer sueldo
+   escribir "Introduzca total primera venta: " 
+   leer v1
+   escribir "Introduzca total segunda venta: " 
+   leer v2
+   escribir "Introduzca total tercera venta: " 
+   leer v3
+   calculoPorcentaje= (v1+v2+v3)*0.10
+   calculoTotal= sueldo+calculoPorcentaje
+   Escribir "El total de la ganancia por comisión de ventas es: "+calculoPorcentaje+ " y su pago total incluyendo
+		sueldo base es :" + calculoTotal
+fin
+
+8.INTERCAMBIO DE VALORES
+Realizar un algoritmo que intercambie el valor de dos variables.
+
+variables: int a,b,c
+inicio
+   escribir "Introduzca valor de a: " 
+   leer a 5
+   escribir "Introduzca valor de b: " 
+   leer b 2
+   escribir "El valor de a es "+ a + " y el valor de b es "+ b
+   c=a 
+   a=b 
+   b=c 
+   escribir "El nuevo valor de intercambio de a es "+ a + " y el valor de b es "+ b
+fin

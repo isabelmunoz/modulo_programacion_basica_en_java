@@ -1,0 +1,197 @@
+Ejercicios
+Crear algoritmos para resolver los siguientes problemas:
+- Determinar si un número ingresado es par o impar
+
+variables: int numero
+inicio
+   escribir "Introduzca número: " 
+   leer numero
+     Si (n1 % 2==0) entonces
+     escribir "El número ingresado es par "
+     sino
+     escribir "El número ingresado es impar "
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+- Determinar si un número ingresado es múltiplo o no de 2
+
+variables: int numero,multiplo
+inicio
+   escribir "Introduzca número: " 
+   leer numero
+   multiplo= numero % 2
+     Si (multiplo==0) entonces
+     escribir "El número es multiplo de dos "
+     sino
+     escribir "El número no es multiplo de dos "
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+- Determinar si un número ingresado es múltiplo o no de 3
+
+variables: int numero,multiplo
+inicio
+   escribir "Introduzca número: " 
+   leer numero
+   multiplo= numero % 3
+     Si (multiplo==0) entonces
+     escribir "El número es multiplo de tres "
+     sino
+     escribir "El número no es multiplo de tres "
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+- Que permita determinar cual es el mayor de 2 números ingresados
+
+variables: int n1,n2
+inicio
+   escribir "Introduzca primer número: " 
+   leer n1
+   escribir "Introduzca segundo número: " 
+   leer n2
+     Si (n1>n2) entonces
+     escribir "El primer número ingresado es mayor "
+     sino
+     escribir "El segundo número ingresado es mayor "
+     fin del si
+fin
+
+----------------------------------------------------------------------------------------------------
+- Que permita determinar cual es el menor de 2 números ingresados
+
+variables: int n1,n2
+inicio
+   escribir "Introduzca primer número: " 
+   leer n1
+   escribir "Introduzca segundo número: " 
+   leer n2
+     Si (n1<n2) entonces
+     escribir "El primer número ingresado es menor "
+     sino
+     escribir "El segundo número ingresado es menor "
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+-Que permita determinar si la suma de dos numeros ingresados es positiva,negativa o cero
+
+variables: int n1,n2,suma
+inicio
+   escribir "Introduzca primer número: " 
+   leer n1
+   escribir "Introduzca segundo número: " 
+   leer n2
+   suma=n1+n2
+     Si (suma>0) entonces
+     escribir "La suma de los números ingresados es positiva"
+     sino Si (suma<0) entonces
+          escribir "La suma de los números ingresados es negativo"
+          sino
+          escribir "La suma de los números ingresados es cero"
+          fin si
+     fin si
+fin
+----------------------------------------------------------------------------------------------------
+-Que indique si un numero es divisible por 2 y por 5 al mismo tiempo.
+variables: int n
+inicio
+   escribir "Introduzca número: " 
+   leer n
+     Si (n % 2 == 0 && n % 5 == 0) entonces
+     escribir "El número es divisible por 2 y 5"
+     sino 
+     escribir "El número no es divisible por 2 y 5"
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+-Que permita ingresar 4 notas,calcule el promedio de estas y además si el promedio es suficiente
+para aprobar.
+variables: int n1,n2,n3,n4, promedio
+inicio
+   escribir "Introduzca primera nota: " 
+   leer n1
+   escribir "Introduzca segunda nota: " 
+   leer n2
+   escribir "Introduzca tercera nota: " 
+   leer n3
+   escribir "Introduzca cuarta nota: " 
+   leer n4
+   promedio= (n1 + n2 + n3 + n4)/4
+     Si (promedio < 4) entonces
+     escribir "El promedio no es suficiente para aprobar"
+     sino 
+     escribir "El promedio es suficiente para aprobar"
+     fin del si
+fin
+
+----------------------------------------------------------------------------------------------------
+-Que permita determinar cual es el mayor de 3 números ingresados.
+variables: int n1,n2,n3 
+inicio
+   escribir "Introduzca primer número " 
+   leer n1
+   escribir "Introduzca segundo número: " 
+   leer n2
+   escribir "Introduzca tercer número " 
+   leer n3
+     Si (n1>n2 && n1>n3) 
+     escribir "El primer numero es mayor"
+  sino
+     si (n2>n1 && n2>n3) 
+     escribir "El segundo numero es mayor"
+     sino
+     escribir "El tercer numero es mayor"
+     fin del si
+fin
+----------------------------------------------------------------------------------------------------
+-Que solicite al usuario ingresar dos números y realizara la operación matemática con estos números,
+el usuario debe seleccionar la operación a realizar.
+variables: int n1,n2,suma,resta,multiplica,divide
+inicio
+   escribir "Introduzca primer número " 
+   leer n1
+   escribir "Introduzca segundo número: " 
+   leer n2
+   Segun <op>
+      +: suma=n1 + n2
+      -: resta=n1 - n2
+      *: multiplica=n1 * n2
+      /: divide=n1 / n2
+   
+     
+fin
+----------------------------------------------------------------------------------------------------
+
+EJERCICIOS
+Realizar algoritmo es pseudocodigo que resuelva los siguientes problemas utilizando una de las tres
+estructura iterativas que hemos visto(mientras-hacer mientras-para):
+-Mostrar por pantalla los número de 1 al 100 y del 100 al 1.
+
+inicio
+   Para(i=1; i<=100; i++) hacer 
+      escribir i 
+   Fin para
+   Para(j=100; j>=1; j--) hacer 
+      escribir j
+   Fin para  
+fin
+
+
+inicio
+   Hacer 
+	i=1
+	escribir i
+   	mientras (i<=100)
+ 	  escribir i
+	  i++ 
+        fin mientras
+
+   Hacer 
+	i=100
+	escribir i
+   	mientras (i>=1)
+ 	  escribir i
+	  i--
+        fin mientras
+fin
+
+----------------------------------------------------------------------------------------------------

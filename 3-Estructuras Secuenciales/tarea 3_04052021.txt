@@ -1,0 +1,117 @@
+crear un algoritmo que permita realizar una compra online, identificar entradas,
+salidas,procesos, variables, constantes y tipos de datos.
+
+Entrada:computador, telefono o tablet, usuario, conexión a internet
+
+procesos:
+1. usuario debde encender dispositivo
+2. usuario debe verificar conexión a internet
+3. ingresar a sitio web de empresa deseada
+4. buscar articulo deseado
+5. seleccionar articulo e ingresarlo a carrito de compras
+6. seleccionar pagar
+7. seleccionar medio de pago
+8. ingresar datos necesarios de medio de pago
+9. ingresar datos despacho
+10. aprobar compra
+11. imprimir o guardar el comprobante de compra
+12. esperar el articulo
+
+
+variables: articulo, valor,cantidad, medio pago, codigo promoción, color, talla, id usuario,nombre usuario,telefono direccion , ciudad, comuna, region,pais, codigo tarjeta
+
+constantes: iva
+
+tipo de datos: String,int,double
+
+Salida:compra exitosa
+
+-------------------------------------------------------------------------------------------------------
+
+Crear un algoritmo que permita realizar una liquidación de sueldo, identificar entradas, salidas,
+procesos, variables, constantes y tipos de datos.
+
+entrada:computador,usuario, datos trabajador.
+
+procesos:
+1. abrir programa
+2. ingresar run trabajador
+3. validar datos personales
+4. ingresar valor sueldo bruto
+5. ingresar días trabajados
+6. ingresar horas extras
+7. ingresar gratificación legal
+8. ingresar item colacion
+9. ingresar item movilización
+10. calcular descuentos afp y revisión
+11. realizar calculos de sumas y descuentos
+12. mostrar pago liquido.
+
+variables:nombre , run, cargo,sueldo bruto,fecha ingreso, seguro cesantía,colación, movilización,previsión, afp, bonos, horas extras, dias trabajados,seguro médico,gratificación legal
+
+constantes: % descto previsión, % descto afp
+
+tipo de datos:String,int,double
+
+salida:liquidación de sueldo
+-------------------------------------------------------------------------------------------------------
+
+Crear un algoritmo que permita realizar una boleta de honorarios electrónica, identificar entradas,
+salidas,procesos, variables, constantes y tipos de datos.
+
+entrada: computador,usuario, datos.
+
+procesos:
+
+1.ingresar sitio web sii
+2.ingresar a boleta de honorarios electrónica, opción emitir boletas.
+3.ingresar rut y contraseña
+4.seleccionar opcion de boleta con retención o sin retención
+5.completar datos de cliente, descripción de servicio y monto
+6.confirme los datos
+7.emita la boleta
+8.imprima la boleta 
+9.Si lo necesita envíela por email
+
+variables: fecha, razón social, giro, descripción, monto, rut, clave sii
+
+constantes: % de retención
+
+tipo de datos: String,int,double
+
+salida: boleta de honorarios electrónica
+
+-------------------------------------------------------------------------------------------------------
+
+ACTIVIDAD GRUPAL
+Pensar en dos problemáticas las cuales podamos resolver aplicando tecnología (software), luego definir
+tres requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro 
+de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos.
+
+
+Problematica uno: registrar asistencia
+Requerimientos funcionales:asistencia por huella, que guarde fecha y hora de entrada y salida,que se pueda revisar por internet
+Variables: registro huella, rut, nombre, hora entrada, hora salida, dia, mes, año,atraso
+Constantes: 
+Procesos:
+1.ingresar rut
+2.registrar huella
+3.verificar nombre
+4.verificar hora ingreso-salida
+5.imprimir comprobante
+
+
+Problematica dos: registrar compras en almacen
+Requerimientos funcionales: registro de productos por codigo, suma de todas las compras, registro con los productos mas vendidos
+Variables: codigo, producto, cantidad, suma, resta,multiplicar, total,saldo,medio pago
+Constantes: valor iva
+Procesos:
+1.ingresar cantidad
+2.leer codigo
+3.registrar todos los productos comprados
+4.realizar las suma de todos los productos ingresados
+5.aplicar iva
+6.mostrar total
+7.ingresar medio pago
+8.imprimir boleta
+

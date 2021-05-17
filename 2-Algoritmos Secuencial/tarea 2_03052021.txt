@@ -1,0 +1,88 @@
+Algoritmo la rueda de un vehículo
+
+Entrada:vehículo, rueda, gata,llave de cruz
+
+1. verificar que tiene una neumático de repuesto
+2. sacar llave de cruz y gata
+3. quitar los tuercas
+4. cambiar el neumático dañado
+5. poner los tuercas y ajustarlos fuertemente
+6. guardar llave de curz y gata
+7. guardar neumatico dañado
+
+Salida: vehículo en óptimas condiciones para manejar
+------------------------------------------------------------
+Cambiar pañal de un bebé
+Entrada:bebé, pañales, mudador,toallitas húmedas.
+
+1. recostar a bebe sobre el mudador
+2. Sacar ropa inferior del bebé
+3. abrir cintas ajustables de pañal
+4. sacar pañal sucio
+5. limpiar con toallitas húmedas el potito del bebe
+6. colocar pañal limpio
+7. ajustar cintas de pañal
+8. Colocar ropa inferior nuevamente al bebé
+9. guardar mudador y toallitas húmedas
+10. lavarse las manos
+
+Salida: bebé limpio y feliz
+------------------------------------------------------------
+
+Cambiar clave correo electrónico
+Entrada: computador, telefono o tablet, usuario, conexión a internet
+
+1. usuario debde encender dispositivo
+2. usuario debe verificar conexión a internet
+3. ingresar a sitio web de correo electronico
+4. ingresar a su sesión con usuario y contraseña
+5. ingresar a ajustes
+6. seleccionar cambio de contraseña
+7. ingresar clave actual
+8. ingresar nueva contraseña
+9. confirmar nueva contraseña
+10. cerrar sesión
+11. reingresar al sitio con nueva contraseña para confirmar que los cambios se hayan realizado.
+
+Salida: cambio de contraseña exitoso
+
+------------------------------------------------------------
+
+Realizar compra en tienda virtual
+Entrada:computador, telefono o tablet, usuario, conexión a internet
+
+1. usuario debde encender dispositivo
+2. usuario debe verificar conexión a internet
+3. ingresar a sitio web de empresa deseada
+4. buscar articulo deseado
+5. seleccionar articulo e ingresarlo a carrito de compras
+6. seleccionar pagar
+7. seleccionar medio de pago
+8. ingresar datos necesarios de medio de pago
+9. ingresar datos despacho
+10. aprobar compra
+11. imprimir o guardar el comprobante de compra
+12. esperar el articulo
+
+
+Salida:compra exitosa
+
+
+------------------------------------------------------------
+
+Tipos de datos primitivos       ejemplo
+
+byte				111	
+short				32111
+int				2147483646			
+long				92223372036854775800		
+float				3.452F
+double				1.79325648e308
+char				M
+
+En Java, los String son objetos, define y admite cadenas de caracteres 
+String                          "Isabel"
+
+
+
+

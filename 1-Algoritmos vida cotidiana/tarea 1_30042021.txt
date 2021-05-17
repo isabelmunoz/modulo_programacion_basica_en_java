@@ -1,0 +1,11 @@
+hacer un sandwich aliado
+entrada: pan marraqueta, queso, jamon,cuchillo,plato
+salida: sandwich listo
+
+1.tomar el pan
+2.tomar cuchillo
+3.abrir el pan con el cuchiilo
+4.en una mitad del pan colocar encima el queso
+5.colocar sobre el queso la lamina de jamon
+6.colocar la otra mitad de pan sobre los ingredientes anteriores
+7.colocar sobre el plato el sadwich
