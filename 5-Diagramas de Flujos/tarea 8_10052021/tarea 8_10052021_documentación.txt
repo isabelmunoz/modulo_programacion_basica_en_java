@@ -1,0 +1,65 @@
+EJERCICIOS
+-Determinar el mayor de N números ingresados por el usuario.
+Variables:int cantNumeros,numMayor=0
+Inicio
+  Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    Si(num>numMayor)  entonces
+     numMayor=num
+    FinSi
+  finPara
+  Escribir: "El numero mayor de los ingresados es ", numMayor
+Fin
+
+----------------------------------------------------------------------------------------------------
+-Determinar el menor de N números ingresados por el usuario.
+Variables:int cantNumeros,numMenor=0
+Inicio
+  Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    Si(num<numMenor)  entonces
+     numMenor=num
+    FinSi
+  finPara
+  Escribir: "El numero mayor de los ingresados es ", numMayor
+Fin
+
+----------------------------------------------------------------------------------------------------
+-Que permita calcular el promedio de edades N edades ingresadas y determine cual es la mayor edad 
+registrada y la menor.
+Variables:int cantEdad,edad,sumEdad=0,edadMenor=110,edadMayor=2, promedio
+Inicio
+  Escribir: "Ingrese cantidad de edades a ingresar". 
+  Leer cantEdad 
+  Para(i=0; i<cantEdad; i++) hacer 
+    Escribir: "Ingrese edad".   
+    Leer edad
+    sumEdad= sumEdad+edad
+    promedio=sumEdad/cantEdad
+
+    Si(edad>edadMayor)  entonces
+     edadMayor=edad
+    FinSi
+      Si(edad<edadMenor)  entonces
+     edadMenor=edad
+    FinSi
+
+  finPara
+  Escribir: "El promedio de edades ingresadas es "+ promedio "y la mayor edad ingresada es: " +edadMayor
+            + " y la edad menor es: "+edadMenor
+Fin
+----------------------------------------------------------------------------------------------------
+
+DOCUMENTACIÓN
+-HOY VIMOS DIAGRAMA DE FLUJOS Y TUVE QUE INSTALAR PSEINT Y BUSCAR INFORMACION SOBRE COMO UTILIZARLO 
+PARA CREAR LOS ALGORITMOS Y SACAR LOS DIAGRAMAS.
+
+REFLEXIÓN: ME CONFUNDI AL REALIZAR EL ULTIMO EJERCICIO ANIDANDO LOS "SI" UNO DENTRO DE OTRO, DESPUES DE
+UN RATO LOGRE RESOLVERLO REALIZANDO LA SECUENCIA DEL ALGORITMO CON "SI" POR SEPARADO.
+ENLACE:http://pseint.sourceforge.net/

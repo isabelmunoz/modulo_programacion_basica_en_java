@@ -1,0 +1,146 @@
+EJERCICIOS
+-Calcular la suma de N números ingresados por un usuario que sean múltiplos de 5(la cantidad debe ser
+ingresada por el mismo usuario).
+Variables: numIngresar,contador=1,multiplo
+Inicio
+  escribir "ingrese cantidad de números a ingresar"
+  leer numIngresar
+   mientras(contador<=numIngresar) hacer
+      escribir "Ingrese numero" 
+      si (multiplo % 5 == 0)  entonces 
+       suma = (suma+multiplo) 
+       contador++
+      sino
+      escribir "La suma de los números no son múltiplos de 5"
+      fin si 
+   fin mientras 
+Fin
+
+----------------------------------------------------------------------------------------------------
+-Calcular la multiplicación de N números ingresados por un usuario que sean números primos(la cantidad debe ser
+ingresada por el mismo usuario).
+
+Variables:int cantNumeros, num,multiplicacion=1
+Inicio
+  Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    Si(num%1==0 && num%num==0)  entonces
+     multiplicacion= multiplicacion*num
+    sino
+     escribir "El número ingresado no es primo"
+    FinSi
+  finPara
+  Escribir: "La multiplicacion es de los números ingresados es ", Multiplicacion
+Fin
+
+
+
+----------------------------------------------------------------------------------------------------
+-Sumar solo los números pares ingresados por un usuario (la cantidad debe ser ingresada por el mismo
+usuario).
+Variables:cantNumeros,num,sum
+Inicio
+Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    sum=0
+    Si(num%2==0)  entonces
+     sum= sum+num
+    sino
+     escribir "El número ingresado no es par"
+    FinSi
+  finPara
+  Escribir: "La suma de los números pares ingresados es ", sum
+Fin
+----------------------------------------------------------------------------------------------------
+-Determinar la cantidad de números múltiplos de 5 que fueron ingresados (la cantidad debe ser ingresada por el mismo
+usuario).
+Variables:cantNumeros,num,cont
+Inicio
+Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    cont=0
+    Si(num%5==0)  entonces
+     cont++
+    sino
+     escribir "El número ingresado no es multiplo de 5"
+    FinSi
+  finPara
+  Escribir: "La cantidad de números múltiplos de 5 ingresados es ", cont
+Fin
+----------------------------------------------------------------------------------------------------
+-Sumar los números pares e impares ingresados por un usuario y contar la cantidad de números pares 
+e impares (la cantidad debe ser ingresada por el mismo usuario).
+Variables:cantNumeros,num,contPar=0,contImpar=0,sumPar=0,sumImpar=0
+Inicio
+Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    Si(num%2==0)  entonces
+     contPar++
+     sumPar=sumPar+num
+    sino
+     contImpar++
+     sumImpar=sumImpar+num
+    FinSi
+  finPara
+  Escribir: "La cantidad de números pares ingresados es "+ contPar + "sumando :"+sumPar
+            "y la cantidad de números impares ingresados es: "+contImpar +"sumando: "+sumImpar
+Fin
+----------------------------------------------------------------------------------------------------
+-Se ingresa una cantidad de números,calcular la suma de todos los números pares ingresados y la 
+multiplicación de todos los impares ingresados, además determinar si  de los números ingresados 
+fueron mas pares o impares (la cantidad debe ser ingresada por el mismo usuario)
+Variables:cantNumeros,num,contPar=0,contImpar=0,sumPar=0,multImpar=1
+Inicio
+Escribir: "Ingrese cantidad de numeros a ingresar". 
+  Leer cantNumeros 
+  Para(i=0; i<cantNumeros; i++) hacer 
+    Escribir: "Ingrese numero ".   
+    Leer num
+    Si(num%2==0) entonces
+     contPar++
+     sumPar=sumPar+num
+    sino
+     contImpar++
+     multImpar=multImpar*num
+    FinSi
+  finPara
+  Si(contPar<contImpar)
+  escribir "Ha ingresado más cantidad de números Impares"
+  sino
+  escribir "Ha ingresado más cantidad de números Pares"  
+  FinSi
+  Escribir: "La suma de números pares ingresados es "+sumPar
+            "y la multiplicación de números impares ingresados es: "+multImpar
+Fin
+
+----------------------------------------------------------------------------------------------------
+-Calcular el promedio de N notas ingresadas y determinar si aprueba o reprueba
+Variables: double numNotas,nota,suma,promedio
+Inicio
+Escribir: "Ingrese cantidad de notas a ingresar". 
+  Leer numNotas 
+  Para(i=0; i<numNotas; i++) hacer 
+    Escribir: "Ingrese nota ".   
+    Leer nota
+    suma=suma+nota
+  finPara
+  promedio=suma/numNotas
+  Si(promedio<4.0) entonces
+     escribir "Con el promedio de notas obtenido usted Reprueba"
+    sino
+     escribir "Felicidades, su promedio de notas le permite Aprobar"
+   FinSi
+Fin
+----------------------------------------------------------------------------------------------------
