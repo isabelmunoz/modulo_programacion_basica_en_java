@@ -1,0 +1,4 @@
+DOCUMENTACIÓN
+-Hoy traspasamos en ejercicio de diagrama de flujos de chismefon a codigo Java.
+-Realice la tarea de crear dos ejercicios con switch y dejados en la evidencia diaria.
+-He investigado mas acerca del lenguaje con internet y sus clases.

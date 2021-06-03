@@ -1,0 +1,6 @@
+DOCUMENTACIÓN
+-Averigue en internet sobre el uso de la clase Scanner para refrescar lo que sabia de java.
+-Es mi primera vez utilizando netbeans y es facil ocuparlo.
+-hay que tener mucho cuidado con los cierres de las instrucciones y las mayusculas.
+- encontré canales de youtube que explican java.
+********En el archivo de holamundo.java están todos los ejercicios vistos en clase.*********

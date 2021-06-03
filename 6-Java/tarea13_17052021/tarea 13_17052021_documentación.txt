@@ -1,0 +1,6 @@
+DOCUMENTACIÓN
+-Hoy creamos tres programas que utilicen la sentecnia if-else en netbeans.
+-Investigue en el siguiente enlca sobre comparar cadenas de texto
+http://chuwiki.chuidiang.org/index.php?title=Comparar_cadenas_de_texto
+- Investigue sibre la propiedad Math.pow para potencias.
+- En el tercer  ejercicio inclui la propiedad length(),toString(),charAt(),String.valueOf() e investigue sobre cada una de ellas.

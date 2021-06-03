@@ -1,0 +1,3 @@
+DOCUMENTACIÓN
+-Realicé mejoras a la tarea de chismefon donde calcula de mejor manera los minutos de llamadas.
+-costó llegar a la solución de viajes_bus, pero creo que esta listo.
