@@ -1,0 +1,4 @@
+DOCUMENTACIÓN
+-Hoy realizamos el ejercicio de la paquetería anteriormente hecho en pseudocodigo, traspasamos a java,
+mas tres ejercicios adicionales con el uso de estructuras iterativas.
+- no presentó mayor dificultad pues eran ejercicio similares a los ya vistos anteriormente en pseudocodigo

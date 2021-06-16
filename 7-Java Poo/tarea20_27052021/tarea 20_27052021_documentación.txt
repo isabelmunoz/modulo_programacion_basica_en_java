@@ -1,0 +1,3 @@
+DOCUMENTACIÓN
+-Hoy a las clases creadas anteriormente le agregamos métodos constructores.
+- Revise información en youtube acerca de estos métodos y la sobrecarga, además de buscar sobre Arraylist.

@@ -1,0 +1,3 @@
+DOCUMENTACIÓN
+- Hoy revise con el primer ejercicio del numero de la suerte los métodos, Integer, to string , parseInt,
+y chartAt.

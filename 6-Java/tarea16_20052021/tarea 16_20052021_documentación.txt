@@ -1,0 +1,4 @@
+DOCUMENTACIÓN
+- Me costo la solución de los números amigos y los números perfectos.
+-busque en internet y vi las posibles soluciones para entenderlos.
+- La página https://javadesdecero.es/ me ayudó bastante.

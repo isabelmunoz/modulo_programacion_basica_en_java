@@ -1,0 +1,3 @@
+DOCUMENTACIÓN
+-Hoy vimos POO , creamos tres clases y logre que iteractuaran entre sí.
+-Buscamos información acerca de ArrayList.

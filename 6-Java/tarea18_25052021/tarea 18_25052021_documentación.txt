@@ -1,0 +1,8 @@
+DOCUMENTACIÓN
+-Hoy tuvimos que averiguar por algoritmos de búqueda y ordenamiento,visite y leí las páginas web
+http://puntocomnoesunlenguaje.blogspot.com/2012/12/java-metodo-ordenacion-seleccion.html
+https://runestone.academy/runestone/static/pythoned/SortSearch/ElOrdenamientoDeShell.html
+https://sites.google.com/a/espe.edu.ec/programacion-ii/home/a1-arreglos/algoritmos-de-ordenacion-y-busqueda
+
+-Al principio me costo un poco entender como funcionaban las búsquedas de los for, pero ya repitiendo y 
+revisando paso por paso logre entender bien.
