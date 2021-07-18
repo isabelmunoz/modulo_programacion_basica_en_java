@@ -1,0 +1,192 @@
+
+package ejercicios31052021;
+
+/**
+ * @author Isabel
+ */
+public class Ejercicios31052021 {
+
+    public static void main(String[] args) {
+        // 
+//        
+//        Cliente cliente1=new Cliente();
+//        cliente1.setNombre("Isabel");
+//        cliente1.setApellido("MuÃ±oz");
+//        cliente1.setSaldoCuenta(50000);
+//        System.out.println("El saldo del cliente "+cliente1.getNombre()+" "+cliente1.getApellido()+" es "+ cliente1.getSaldoCuenta());
+//   
+//        Cajero cajero1=new Cajero();
+//        cajero1.setIdCajero(1234);
+//        cajero1.setUbicaciÃ³n("Carpay 989");
+//        cajero1.setSaldo(100000);
+//        
+//        System.out.println("EL cajero nÂ°"+cajero1.getIdCajero()+" que estÃ¡ ubicado en "+cajero1.getUbicaciÃ³n()+ " tiene un saldo de $"+cajero1.getSaldo());
+//        
+        
+        System.out.println("***************Cajero 2***************");
+        Cajero cajero2=new Cajero(5678,"Los apeninos 1070", 10000000);
+        System.out.println("El id de cajero 2 es "+cajero2.getIdCajero());  
+        System.out.println("La ubicaciÃ³n del cajero 2 es "+cajero2.getUbicaciÃ³n());
+        System.out.println("El saldo que tiene cajero 2 es "+cajero2.getSaldo());
+                
+        
+        System.out.println("***************Cliente 2***************");
+        Cliente cliente2=new Cliente("Carlos", "GonzÃ¡lez", "15453xxx-x", 1234567890, 500000);
+       
+        System.out.println("El nombre del cliente 2 es "+cliente2.getNombre());
+        System.out.println("El apellido de cliente 2 es "+cliente2.getApellido());
+        System.out.println("El run de cliente 2 es "+cliente2.getRun());
+        System.out.println("El numero de tarjeta de cliente 2 es "+cliente2.getNumTarjeta());
+        System.out.println("El saldo de cliente 2 es "+cliente2.getSaldoCuenta());
+    
+    }
+   
+}
+
+package ejercicios31052021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Cliente {
+    private String nombre;
+    private String apellido;
+    private String run;
+    private int numTarjeta;
+    private int saldoCuenta;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getRun() {
+        return run;
+    }
+
+    public void setRun(String run) {
+        this.run = run;
+    }
+
+    public int getNumTarjeta() {
+        return numTarjeta;
+    }
+
+    public void setNumTarjeta(int numTarjeta) {
+        this.numTarjeta = numTarjeta;
+    }
+
+    public int getSaldoCuenta() {
+        return saldoCuenta;
+    }
+
+    public void setSaldoCuenta(int saldoCuenta) {
+        this.saldoCuenta = saldoCuenta;
+    }
+
+    public Cliente() {
+    }
+
+    public Cliente(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    public Cliente(String nombre, String apellido, String run, int numTarjeta) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.run = run;
+        this.numTarjeta = numTarjeta;
+    }
+
+    public Cliente(String nombre, String apellido, String run, int numTarjeta, int saldoCuenta) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.run = run;
+        this.numTarjeta = numTarjeta;
+        this.saldoCuenta = saldoCuenta;
+    }
+    
+    public void mostrarSaldo(int saldo){
+       this.saldoCuenta=saldo;
+        System.out.println("El saldo de su cuenta es: "+saldo);
+    }
+    
+  
+}
+
+
+package ejercicios31052021;
+
+
+
+/**
+ *
+ * @author Isabel
+ */
+public class Cajero {
+    private int idCajero;
+    private String ubicación;
+    private int saldo;
+
+    public int getIdCajero() {
+        return idCajero;
+    }
+
+    public void setIdCajero(int idCajero) {
+        this.idCajero = idCajero;
+    }
+    
+
+    public String getUbicación() {
+        return ubicación;
+    }
+
+    public void setUbicación(String ubicación) {
+        this.ubicación = ubicación;
+    }
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
+    }
+
+    public Cajero() {
+    }
+
+    public Cajero(int idCajero, String ubicación) {
+        this.idCajero = idCajero;
+        this.ubicación = ubicación;
+    }
+
+    public Cajero(int idCajero, String ubicación, int saldo) {
+        this.idCajero = idCajero;
+        this.ubicación = ubicación;
+        this.saldo = saldo;
+    }
+    public void mostrarSaldo(int saldo){
+        this.saldo=saldo;
+        System.out.println("El saldo de este cajero es:"+saldo);
+        
+    }
+   
+    public void establecerUbicacion(String ubicacion){
+       this.ubicación=ubicacion;
+        System.out.println("La ubicacion del cajero es "+ubicacion);
+    }
+}

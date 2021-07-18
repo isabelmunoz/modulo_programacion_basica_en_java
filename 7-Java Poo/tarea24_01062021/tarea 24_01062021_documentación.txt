@@ -1,0 +1,2 @@
+DOCUMENTACIÓN
+-Hoy realizamos ejercicio con clases con  encapsulamiento, usando set y get y los que no habían terminado la tareadel día de ayer tuvieron chance de hacerlo.

@@ -1,0 +1,2 @@
+DOCUMENTACIÓN
+- Se realiza ejercicio de crear una clase abstracta persona y tres subclases.

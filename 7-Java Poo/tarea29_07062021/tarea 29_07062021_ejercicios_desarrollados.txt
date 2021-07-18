@@ -1,0 +1,224 @@
+package ejercicios07062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Ejercicios07062021 {
+
+    public static void main(String[] args) {
+        
+        Juguera juguera1=new Juguera();
+        juguera1.setEncender(true);
+        juguera1.setPrecio(20000);
+        System.out.println("El precio de la juguera es "+juguera1.getPrecio());
+        
+        
+        Refrigerador refri=new Refrigerador();
+        refri.setConsumoElectrico(150);
+        System.out.println("El precio del refrigerador es "+refri.getConsumoElectrico()+" kw");
+        
+        Televisor tele=new Televisor();
+        tele.setSmartTv(true);
+        System.out.println("El televisor es Smart TV? "+tele.isSmartTv());
+        
+        
+        
+    }
+    
+}
+
+package ejercicios07062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Electrodomestico {
+     private boolean encender;
+     private int consumoElectrico;
+     private int peso;
+     private int precio;
+
+    public Electrodomestico() {
+    }
+
+    public Electrodomestico(boolean encender,int consumoElectrico, int peso, int precio) {
+        this.encender= encender;
+        this.consumoElectrico = consumoElectrico;
+        this.peso = peso;
+        this.precio = precio;
+    }
+    public boolean getEncender(){
+        return encender;
+ }
+ 
+    public void setEncender(boolean encender) {
+        this.encender= encender;
+ }
+    public int getConsumoElectrico() {
+        return consumoElectrico;
+    }
+
+    public void setConsumoElectrico(int consumoElectrico) {
+        this.consumoElectrico = consumoElectrico;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+     
+    public void mostrarDatos(){
+        System.out.println("El electrodoméstico está encendido?"+getEncender());
+        System.out.println("El consumo eléctrico es "+getConsumoElectrico());
+        System.out.println("El peso en kilogramos es "+getPeso());
+        System.out.println("El precio es "+getPrecio());
+            
+    }
+}
+
+package ejercicios07062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Juguera extends Electrodomestico {
+    private int capacidad;
+    private int cantVelocidad;
+
+    public Juguera() {
+     
+    }
+
+    public Juguera(int capacidad, int cantVelocidad, boolean encender, int consumoElectrico, int peso, int precio) {
+        super(encender, consumoElectrico, peso, precio);
+        this.capacidad = capacidad;
+        this.cantVelocidad = cantVelocidad;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
+    }
+
+    public int getCantVelocidad() {
+        return cantVelocidad;
+    }
+
+    public void setCantVelocidad(int cantVelocidad) {
+        this.cantVelocidad = cantVelocidad;
+    }
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+    }
+
+
+package ejercicios07062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Refrigerador extends Electrodomestico{
+    private int capacidad;
+    private int puertas;
+    
+     public Refrigerador() {
+     
+    }
+
+    public Refrigerador(int capacidad, int puertas, boolean encender, int consumoElectrico, int peso, int precio) {
+        super(encender, consumoElectrico, peso, precio);
+        this.capacidad = capacidad;
+        this.puertas = puertas;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
+    }
+
+    public int getPuertas() {
+        return puertas;
+    }
+
+    public void setPuertas(int puertas) {
+        this.puertas = puertas;
+    }
+     
+     @Override
+    public void mostrarDatos() {
+        super.mostrarDatos(); //To change body of generated methods, choose Tools | Templates.
+    }
+}
+
+package ejercicios07062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Televisor extends Electrodomestico{
+   private String calidadImagen;
+   private boolean smartTv;
+   
+    public Televisor() {
+     
+    }
+
+    public Televisor(String calidadImagen, boolean smartTv, boolean encender, int consumoElectrico, int peso, int precio) {
+        super(encender, consumoElectrico, peso, precio);
+        this.calidadImagen = calidadImagen;
+        this.smartTv = smartTv;
+    }
+
+    public String getCalidadImagen() {
+        return calidadImagen;
+    }
+
+    public void setCalidadImagen(String calidadImagen) {
+        this.calidadImagen = calidadImagen;
+    }
+
+    public boolean isSmartTv() {
+        return smartTv;
+    }
+
+    public void setSmartTv(boolean smartTv) {
+        this.smartTv = smartTv;
+    }
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos(); //To change body of generated methods, choose Tools | Templates.
+    }
+}
+
+
+
+    
+}

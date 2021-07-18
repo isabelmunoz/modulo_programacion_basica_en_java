@@ -1,0 +1,92 @@
+package ejercicios09062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Ejercicios09062021 {
+
+    public static void main(String[] args) {
+      
+       Medico medico1=new Medico(); 
+       medico1.apellido();
+       
+       Paciente paciente1=new Paciente();
+       paciente1.nombre();
+       
+       Enfermera enfermera1= new Enfermera();
+       enfermera1.nombre();
+       
+    }
+    
+}
+package ejercicios09062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public abstract class Persona {
+    private int run;
+    
+    public abstract void nombre();
+    public abstract void apellido();
+         
+}
+package ejercicios09062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Medico extends Persona{
+
+    @Override
+    public void nombre() {
+        System.out.println("El medico se llama Carlos");
+    }
+
+    @Override
+    public void apellido() {
+        System.out.println("El apellido del médico es Gonzalez");
+    }
+    
+}
+package ejercicios09062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Paciente extends Persona {
+
+    @Override
+    public void nombre() {
+        System.out.println("El paciente se llama Belén");
+    }
+
+    @Override
+    public void apellido() {
+        System.out.println("El apellido del paciente es Herrera");
+    }
+    
+}
+package ejercicios09062021;
+
+/**
+ *
+ * @author Isabel
+ */
+public class Enfermera extends Persona {
+
+    @Override
+    public void nombre() {
+        System.out.println("La enfermera se llama Javiera");
+    }
+
+    @Override
+    public void apellido() {
+        System.out.println("El apellido de la enfermera Muñoz");
+    }
+    
+}

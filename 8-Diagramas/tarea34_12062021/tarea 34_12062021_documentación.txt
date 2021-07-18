@@ -1,0 +1,2 @@
+DOCUMENTACIÓN
+- Se realiza documentacion de diagrama de casos de uso para videoclub y biblioteca.

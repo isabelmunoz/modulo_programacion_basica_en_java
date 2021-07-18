@@ -1,0 +1,2 @@
+DOCUMENTACIÓN
+- Hoy vimos herencia y polimorfismo, termine el ejercicio.

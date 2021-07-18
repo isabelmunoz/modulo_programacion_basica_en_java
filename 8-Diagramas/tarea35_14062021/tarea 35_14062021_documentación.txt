@@ -1,0 +1,3 @@
+DOCUMENTACIÓN
+- Se realiza documentacion de problema sugerido por cada grupo (en mi caso sola) , requerimientos funcionales
+y diagrama de clases.

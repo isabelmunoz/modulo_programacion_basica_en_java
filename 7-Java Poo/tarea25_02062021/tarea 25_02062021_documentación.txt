@@ -1,0 +1,2 @@
+DOCUMENTACIÓN
+- Hoy busque información acerca de la clase StringBuilder que es similar a la clase String en el sentido de que sirve para almacenar cadenas de caracteres
